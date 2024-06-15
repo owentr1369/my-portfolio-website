@@ -1,7 +1,6 @@
 <template>
   <header class="s-header">
-    header
-    <div class="row s-header__inner width-sixteen-col">
+    <div class="row width-sixteen-col">
       <div class="s-header__block">
         <div class="s-header__logo">
           <a class="logo" href="#">
@@ -30,5 +29,15 @@
 <script lang="ts" setup>
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
+.s-header {
+  position: absolute;
+  top: 24px;
+  .row {
+    align-items: center;
+  }
+  &__block {
+    height: fit-content;
+  }
+}
 </style>
