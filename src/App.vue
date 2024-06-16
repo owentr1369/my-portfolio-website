@@ -3,6 +3,7 @@ import { onMounted, ref } from "vue";
 import VueHeader from "./components/VueHeader.vue";
 import VueLoader from "./components/VueLoader.vue";
 import VueIntro from "./components/VueIntro.vue";
+import VueAbout from "./components/VueAbout.vue";
 const is_loading = ref<Boolean>(false);
 onMounted(() => {
   setTimeout(() => {
@@ -17,6 +18,7 @@ onMounted(() => {
     <vue-header></vue-header>
     <section id="content" class="s-content">
       <vue-intro></vue-intro>
+      <vue-about></vue-about>
     </section>
   </div>
 </template>
