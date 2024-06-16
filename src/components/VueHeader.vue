@@ -4,7 +4,8 @@
       <div class="s-header__block">
         <div class="s-header__logo">
           <a class="logo" href="#">
-            <img src="../assets/images/logo.svg" alt="Homepage" />
+            <!-- <img src="../assets/images/logo.svg" alt="Homepage" /> -->
+            Owen
           </a>
         </div>
         <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
